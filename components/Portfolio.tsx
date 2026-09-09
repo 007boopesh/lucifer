@@ -1438,7 +1438,7 @@ function SpideyCursor() {
 
 const FRAME_COUNT = 257;
 const FRAME_PATH = (index: number) =>
-  `/frames/frames-${String(index + 1).padStart(3, "0")}.jpg`;
+  `./frames/frames-${String(index + 1).padStart(3, "0")}.jpg`;
 
 function ScrollCanvas() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -1829,9 +1829,9 @@ function ScrollCanvas() {
      * COMPLETE 257-FRAME LOADER
      *
      * All files are requested:
-     *   /frames/frames-001.jpg
+     *   ./frames/frames-001.jpg
      *   ...
-     *   /frames/frames-257.jpg
+     *   ./frames/frames-257.jpg
      *
      * No generated blocks, gradients or placeholder frames are ever drawn
      * by the canvas.
