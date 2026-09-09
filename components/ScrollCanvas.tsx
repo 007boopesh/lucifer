@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef } from "react";
 
 const FRAME_COUNT = 257;
 const FRAME_PATH = (index: number) =>
-  `/frames/frame_${String(index + 1).padStart(3, "0")}.jpg`;
+  `./frames/frame_${String(index + 1).padStart(3, "0")}.jpg`;
 
 const MOBILE_MAX_DPR = 1.5;
 const DESKTOP_MAX_DPR = 2;
