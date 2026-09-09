@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+:root {
+  --background: #0a0404;
+  --foreground: #ffffff;
+  --crimson: #ff1e2d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #0a0404;
+}
+
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background: #0a0404;
+  color: white;
+  font-family: var(--font-outfit), sans-serif;
+}
+
+/* =========================================================
+   CANVAS / BACKGROUND SAFETY
+   Prevent an opaque canvas from creating a black rectangle.
+========================================================= */
+
+canvas {
+  display: block;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+/* Any canvas used by the cinematic background */
+canvas[style] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* =========================================================
+   SELECTION
+========================================================= */
+
+::selection {
+  background: #ff1e2d;
+  color: white;
+}
+
+/* =========================================================
+   TYPOGRAPHY
+========================================================= */
+
+.font-display {
+  font-family: var(--font-bebas), sans-serif;
+  font-weight: 400;
+}
+
+.font-hand {
+  font-family: var(--font-caveat), cursive;
+  font-weight: 500;
+}
+
+.font-mono {
+  font-family: var(--font-fira), monospace;
+}
+
+.font-body {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.font-hero {
+  font-family: var(--font-bebas), sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.font-script {
+  font-family: var(--font-caveat), cursive;
+  font-weight: 500;
+}
+
+/* =========================================================
+   CRIMSON
+========================================================= */
+
+.text-crimson {
+  color: #ff1e2d;
+}
+
+.bg-crimson {
+  background-color: #ff1e2d;
+}
+
+/* =========================================================
+   GLASS
+========================================================= */
+
+.glass {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  box-shadow:
+    0 20px 80px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* =========================================================
+   GLOW
+========================================================= */
+
+.glow {
+  box-shadow:
+    0 0 40px rgba(255, 30, 45, 0.12),
+    0 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+/* =========================================================
+   GRID BACKGROUND
+========================================================= */
+
+.grid-bg {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    );
+
+  background-size: 70px 70px;
+}
+
+/* =========================================================
+   FORM ELEMENTS
+========================================================= */
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0404;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff1e2d;
+  border-radius: 999px;
+}
