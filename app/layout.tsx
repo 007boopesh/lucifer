@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   title: "Boopesh K — ECE • Embedded • IoT • Creative Technology",
   description:
     "Portfolio of Boopesh K — Electronics, Embedded Systems, IoT, PCB Design and Creative Technology.",
+  verification: {
+    google: "sqBvZDMyjKq8toTLbX5hrFjVvSjvR6uUKpIqwX-yOOY",
+  },
 };
 
 export default function RootLayout({
