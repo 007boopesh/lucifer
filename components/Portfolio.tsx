@@ -10112,7 +10112,7 @@ export default function Portfolio() {
 <div className="gallery-ripple-image">
 
   <img
-    src="/gallery/college-presentation.jpg"
+    src="./gallery/college-presentation.jpg"
     alt="College presentation and engineering event"
     draggable={false}
     loading="lazy"
@@ -10240,7 +10240,7 @@ export default function Portfolio() {
         <div className="gallery-ripple-image">
 
           <img
-            src="/gallery/photo-02.jpg"
+            src="./gallery/photo-02.jpg"
             alt="Gallery project 02"
             draggable={false}
           />
@@ -10356,7 +10356,7 @@ export default function Portfolio() {
         <div className="gallery-ripple-image">
 
           <img
-            src="/gallery/photo-03.jpg"
+            src="./gallery/photo-03.jpg"
             alt="Gallery project 03"
             draggable={false}
           />
@@ -10472,7 +10472,7 @@ export default function Portfolio() {
         <div className="gallery-ripple-image">
 
           <img
-            src="/gallery/photo-04.jpg"
+            src="./gallery/photo-04.jpg"
             alt="Gallery project 04"
             draggable={false}
           />
