@@ -2160,7 +2160,7 @@ const projects = [
     description:
       "A communication project exploring visible light communication for wireless audio and video data transfer.",
     category: "Communication",
-    image: "/images/projects/lifi.jpg",
+    image: "./images/projects/lifi.jpg",
   },
   {
     title: "Vehicle & License Authentication",
@@ -2168,7 +2168,7 @@ const projects = [
       "An intelligent vehicle authentication concept combining image processing and identification technologies.",
     category: "Embedded / AI",
     image:
-      "/images/projects/Vehicle & License Authentication.jpg",
+      "./images/projects/Vehicle & License Authentication.jpg",
   },
   {
     title: "Intelligent Speed Regulation Using Python",
@@ -2176,7 +2176,7 @@ const projects = [
       "A Python-based intelligent system designed to monitor and regulate vehicle speed using automation concepts.",
     category: "Python",
     image:
-      "/images/projects/Intelligent Speed Regulation Using Python.jpg",
+      "./images/projects/Intelligent Speed Regulation Using Python.jpg",
   },
   {
     title: "Smart Exam Time System",
@@ -2184,7 +2184,7 @@ const projects = [
       "A smart embedded system concept for managing examination timing and notification requirements.",
     category: "Embedded",
     image:
-      "/images/projects/Smart Exam Time System.jpg",
+      "./images/projects/Smart Exam Time System.jpg",
   },
   {
     title: "Stress Analysis and Prediction System",
@@ -2192,7 +2192,7 @@ const projects = [
       "An IoT and embedded system concept involving sensors, monitoring, communication and intelligent prediction.",
     category: "IoT",
     image:
-      "/images/projects/Stress Analysis and Prediction System.jpg",
+      "./images/projects/Stress Analysis and Prediction System.jpg",
   },
  
   {
@@ -2200,7 +2200,7 @@ const projects = [
     description:
       "Technical research and paper presentation exploring blockchain applications in healthcare security.",
     category: "Research",
-    image: "/images/projects/Blockchain Technology.jpg",
+    image: "./images/projects/Blockchain Technology.jpg",
   },
 ];
 
@@ -3045,7 +3045,7 @@ function IdentityCard() {
             >
 
               <img
-                src="/images/fdfd.jpg"
+                src="./images/fdfd.jpg"
                 alt="Boopesh K portrait"
                 className="
                   relative
@@ -7047,7 +7047,7 @@ export default function Portfolio() {
                   <div className="relative overflow-hidden">
 
                     <img
-                      src="/images/TECHNICAL CATEGORIES/after-effects.jpg"
+                      src="./images/TECHNICAL CATEGORIES/after-effects.jpg"
                       alt="After Effects"
                       className="
                         h-44
@@ -7175,7 +7175,7 @@ export default function Portfolio() {
                   <div className="relative overflow-hidden">
 
                     <img
-                      src="/images/TECHNICAL CATEGORIES/premierepro.jpg"
+                      src="./images/TECHNICAL CATEGORIES/premierepro.jpg"
                       alt="Premiere Pro"
                       className="
                         h-44
@@ -7267,7 +7267,7 @@ export default function Portfolio() {
                   <div className="relative overflow-hidden">
 
                     <img
-                      src="/images/TECHNICAL CATEGORIES/visual-studio-code.jpg"
+                      src="./images/TECHNICAL CATEGORIES/visual-studio-code.jpg"
                       alt="Visual Studio Code"
                       className="
                         h-44
@@ -7359,7 +7359,7 @@ export default function Portfolio() {
                   <div className="relative overflow-hidden">
 
                     <img
-                      src="/images/TECHNICAL CATEGORIES/python.jpg"
+                      src="./images/TECHNICAL CATEGORIES/python.jpg"
                       alt="Python Programming"
                       className="
                         h-44
